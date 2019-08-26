@@ -1,0 +1,15 @@
+D:\WPF\source\RocketBoot\TemplateDemo\bin\Debug\TemplateDemo.exe.config
+D:\WPF\source\RocketBoot\TemplateDemo\bin\Debug\TemplateDemo.exe
+D:\WPF\source\RocketBoot\TemplateDemo\bin\Debug\TemplateDemo.pdb
+D:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\TemplateDemo.csprojAssemblyReference.cache
+D:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\MainWindow.g.cs
+D:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\App.g.cs
+D:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\TemplateDemo_MarkupCompile.cache
+D:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\TemplateDemo_MarkupCompile.lref
+D:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\MainWindow.baml
+D:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\TemplateDemo.g.resources
+D:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\TemplateDemo.Properties.Resources.resources
+D:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\TemplateDemo.csproj.GenerateResource.cache
+D:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\TemplateDemo.csproj.CoreCompileInputs.cache
+D:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\TemplateDemo.exe
+D:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\TemplateDemo.pdb
