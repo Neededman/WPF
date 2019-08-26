@@ -5,8 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TemplateDemo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="600">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    
+                    
+                    <ControlTemplate TargetType="Button">
+                        <!-- VisualTree start -->
+                        <Grid>
+                            <Ellipse Width="100" Height="100" x:Name="Extend_Ellipse">
+                                <Ellipse.Fill>
+                                    <LinearGradientBrush>
+                                        <GradientStop Color="AliceBlue" Offset="0.5"/>
+                                        <GradientStop Color="Blue" Offset="1.0"/>
+                                    </LinearGradientBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                            <Ellipse Width="80" Height="80" Fill="White"></Ellipse>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <!-- VisualTree end -->
+                        
+                        <!-- Trigger start -->
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Extend_Ellipse" Property="Fill">
+                                    <Setter.Value>
+                                        <LinearGradientBrush>
+                                            <GradientStop Color="Brown" Offset="0.5"/>
+                                            <GradientStop Color="OrangeRed" Offset="1.0"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                        <!-- Trigger end -->
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
     <Grid>
-        
+        <Button Content="Hello WPF"></Button> 
     </Grid>
 </Window>
