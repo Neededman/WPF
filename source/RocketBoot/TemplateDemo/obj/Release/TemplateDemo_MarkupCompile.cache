@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-E:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\
+E:\WPF\source\RocketBoot\TemplateDemo\obj\Release\
 TemplateDemo
 none
 false
-DEBUG;TRACE
+TRACE
 E:\WPF\source\RocketBoot\TemplateDemo\App.xaml
 11151548125
 
-81791303292
+7-1607774582
 13-1505183044
 MainWindow.xaml;
 
