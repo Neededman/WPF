@@ -4,14 +4,26 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TemplateDemo"
+        xmlns:converters="clr-namespace:TemplateDemo.Converters"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="600">
     <Window.Resources>
+        <converters:ScoreConvertToImage x:Key="test"></converters:ScoreConvertToImage>
+        <!-- test DataTemplate -->
+        <DataTemplate x:Key="student_data_template">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="{Binding Id}" Padding="4px"></TextBlock>
+                <TextBlock Text="{Binding Name}" Padding="4px"></TextBlock>
+                <TextBlock Text="{Binding Score}" Padding="4px"></TextBlock>
+                <Image Source="{Binding Score, Converter={StaticResource test}}"></Image>
+            </StackPanel>
+        </DataTemplate>
+        <!-- test DataTemplate End -->
+        
+        
         <Style TargetType="Button">
             <Setter Property="Template">
                 <Setter.Value>
-                    
-                    
                     <ControlTemplate TargetType="Button">
                         <!-- VisualTree start -->
                         <Grid>
@@ -48,6 +60,13 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <Button Content="Hello WPF"></Button> 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
+            <ColumnDefinition Width="6*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Border Background="LightBlue" Grid.Column="0">
+            <Button Content="Hello WPF" Grid.Column="0"></Button>
+        </Border>
+        <ListBox x:Name="listbox_test" ItemsSource="{Binding Stus}" ItemTemplate="{StaticResource student_data_template}" Grid.Column="1"/>
     </Grid>
 </Window>

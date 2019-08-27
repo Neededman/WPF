@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TemplateDemo.ViewModels;
 
 namespace TemplateDemo
 {
@@ -20,9 +21,12 @@ namespace TemplateDemo
     /// </summary>
     public partial class MainWindow : Window
     {
+        StuViewModel svm = new StuViewModel();
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = svm;
+            // this.listbox_test.ItemsSource = svm.Stus;
         }
     }
 }
