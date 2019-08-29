@@ -1,0 +1,11 @@
+E:\WPF\source\RocketBoot\ThreadDemo\bin\Debug\netcoreapp2.1\ThreadDemo.deps.json
+E:\WPF\source\RocketBoot\ThreadDemo\bin\Debug\netcoreapp2.1\ThreadDemo.runtimeconfig.json
+E:\WPF\source\RocketBoot\ThreadDemo\bin\Debug\netcoreapp2.1\ThreadDemo.runtimeconfig.dev.json
+E:\WPF\source\RocketBoot\ThreadDemo\bin\Debug\netcoreapp2.1\ThreadDemo.dll
+E:\WPF\source\RocketBoot\ThreadDemo\bin\Debug\netcoreapp2.1\ThreadDemo.pdb
+E:\WPF\source\RocketBoot\ThreadDemo\obj\Debug\netcoreapp2.1\ThreadDemo.csprojAssemblyReference.cache
+E:\WPF\source\RocketBoot\ThreadDemo\obj\Debug\netcoreapp2.1\ThreadDemo.csproj.CoreCompileInputs.cache
+E:\WPF\source\RocketBoot\ThreadDemo\obj\Debug\netcoreapp2.1\ThreadDemo.AssemblyInfoInputs.cache
+E:\WPF\source\RocketBoot\ThreadDemo\obj\Debug\netcoreapp2.1\ThreadDemo.AssemblyInfo.cs
+E:\WPF\source\RocketBoot\ThreadDemo\obj\Debug\netcoreapp2.1\ThreadDemo.dll
+E:\WPF\source\RocketBoot\ThreadDemo\obj\Debug\netcoreapp2.1\ThreadDemo.pdb
