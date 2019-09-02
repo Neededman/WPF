@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using TemplateDemo.ViewModels;
 
 namespace TemplateDemo
 {
@@ -13,5 +14,16 @@ namespace TemplateDemo
     /// </summary>
     public partial class App : Application
     {
+        [STAThread]
+        protected override void OnStartup(StartupEventArgs e)
+        {
+
+            MainWindow mw = new MainWindow();
+            this.MainWindow = mw;
+            StuViewModel svm = new StuViewModel();
+
+            mw.DataContext = svm;
+            mw.Show();
+        }
     }
 }

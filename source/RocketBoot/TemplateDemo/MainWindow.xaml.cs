@@ -21,12 +21,9 @@ namespace TemplateDemo
     /// </summary>
     public partial class MainWindow : Window
     {
-        StuViewModel svm = new StuViewModel();
         public MainWindow()
         {
             InitializeComponent();
-            this.DataContext = svm;
-            // this.listbox_test.ItemsSource = svm.Stus;
         }
     }
 }
