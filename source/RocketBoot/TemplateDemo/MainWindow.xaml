@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TemplateDemo"
         xmlns:converters="clr-namespace:TemplateDemo.Converters"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="600">
+        Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
         <converters:ScoreConvertToImage x:Key="ScoreConvertToImageKey"></converters:ScoreConvertToImage>
         <!-- test DataTemplate -->
@@ -19,7 +19,12 @@
             </StackPanel>
         </DataTemplate>
         <!-- test DataTemplate End -->
-
+        
+        <!-- Test ItemPanelTemplate start -->
+        <ItemsPanelTemplate x:Key="student_items_panel_template">
+            <StackPanel Orientation="Horizontal"></StackPanel>
+        </ItemsPanelTemplate>
+        <!-- Test ItemPanelTemplate end-->
 
         <Style TargetType="Button">
             <Setter Property="Template">
@@ -67,6 +72,6 @@
         <Border Background="LightBlue" Grid.Column="0">
             <Button Content="Hello WPF"></Button>
         </Border>
-        <ListBox x:Name="listbox_test" ItemsSource="{Binding Stus}" ItemTemplate="{StaticResource student_data_template}" Grid.Column="1"/>
+        <ListBox x:Name="listbox_test" ItemsSource="{Binding Stus}" ItemTemplate="{StaticResource student_data_template}" Grid.Column="1" ItemsPanel="{StaticResource student_items_panel_template}"/>
     </Grid>
 </Window>
