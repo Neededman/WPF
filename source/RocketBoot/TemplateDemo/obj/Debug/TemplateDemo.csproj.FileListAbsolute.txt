@@ -29,3 +29,4 @@ E:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\TemplateDemo.csproj.CoreCompileI
 E:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\TemplateDemo.exe
 E:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\TemplateDemo.pdb
 E:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\WPF\source\RocketBoot\TemplateDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs

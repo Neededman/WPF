@@ -8,19 +8,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="600">
     <Window.Resources>
-        <converters:ScoreConvertToImage x:Key="test"></converters:ScoreConvertToImage>
+        <converters:ScoreConvertToImage x:Key="ScoreConvertToImageKey"></converters:ScoreConvertToImage>
         <!-- test DataTemplate -->
         <DataTemplate x:Key="student_data_template">
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="{Binding Id}" Padding="4px"></TextBlock>
-                <TextBlock Text="{Binding Name}" Padding="4px"></TextBlock>
+                <TextBlock Text="{Binding Name}" Padding="4px" ></TextBlock>
                 <TextBlock Text="{Binding Score}" Padding="4px"></TextBlock>
-                <Image Source="{Binding Score, Converter={StaticResource test}}"></Image>
+                <Image Source="{Binding Score, Converter={StaticResource ScoreConvertToImageKey}}"></Image>
             </StackPanel>
         </DataTemplate>
         <!-- test DataTemplate End -->
-        
-        
+
+
         <Style TargetType="Button">
             <Setter Property="Template">
                 <Setter.Value>
@@ -39,7 +39,7 @@
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Grid>
                         <!-- VisualTree end -->
-                        
+
                         <!-- Trigger start -->
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
@@ -61,11 +61,11 @@
     </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="4*"></ColumnDefinition>
-            <ColumnDefinition Width="6*"></ColumnDefinition>
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="6*" />
         </Grid.ColumnDefinitions>
         <Border Background="LightBlue" Grid.Column="0">
-            <Button Content="Hello WPF" Grid.Column="0"></Button>
+            <Button Content="Hello WPF"></Button>
         </Border>
         <ListBox x:Name="listbox_test" ItemsSource="{Binding Stus}" ItemTemplate="{StaticResource student_data_template}" Grid.Column="1"/>
     </Grid>
