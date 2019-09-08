@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WPF\\source\\RocketBoot\\ThreadDemo\\ThreadDemo.csproj",
-      "projectName": "ThreadDemo",
-      "projectPath": "E:\\WPF\\source\\RocketBoot\\ThreadDemo\\ThreadDemo.csproj",
+      "projectUniqueName": "E:\\WPF\\source\\RocketBoot\\FileSystem\\FileSystem.csproj",
+      "projectName": "FileSystem",
+      "projectPath": "E:\\WPF\\source\\RocketBoot\\FileSystem\\FileSystem.csproj",
       "packagesPath": "C:\\Users\\Miraclee\\.nuget\\packages\\",
-      "outputPath": "E:\\WPF\\source\\RocketBoot\\ThreadDemo\\obj\\",
+      "outputPath": "E:\\WPF\\source\\RocketBoot\\FileSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

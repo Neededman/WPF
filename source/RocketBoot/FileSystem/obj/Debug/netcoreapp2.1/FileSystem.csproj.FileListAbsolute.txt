@@ -1,0 +1,11 @@
+E:\WPF\source\RocketBoot\FileSystem\bin\Debug\netcoreapp2.1\FileSystem.deps.json
+E:\WPF\source\RocketBoot\FileSystem\bin\Debug\netcoreapp2.1\FileSystem.runtimeconfig.json
+E:\WPF\source\RocketBoot\FileSystem\bin\Debug\netcoreapp2.1\FileSystem.runtimeconfig.dev.json
+E:\WPF\source\RocketBoot\FileSystem\bin\Debug\netcoreapp2.1\FileSystem.dll
+E:\WPF\source\RocketBoot\FileSystem\bin\Debug\netcoreapp2.1\FileSystem.pdb
+E:\WPF\source\RocketBoot\FileSystem\obj\Debug\netcoreapp2.1\FileSystem.csprojAssemblyReference.cache
+E:\WPF\source\RocketBoot\FileSystem\obj\Debug\netcoreapp2.1\FileSystem.csproj.CoreCompileInputs.cache
+E:\WPF\source\RocketBoot\FileSystem\obj\Debug\netcoreapp2.1\FileSystem.AssemblyInfoInputs.cache
+E:\WPF\source\RocketBoot\FileSystem\obj\Debug\netcoreapp2.1\FileSystem.AssemblyInfo.cs
+E:\WPF\source\RocketBoot\FileSystem\obj\Debug\netcoreapp2.1\FileSystem.dll
+E:\WPF\source\RocketBoot\FileSystem\obj\Debug\netcoreapp2.1\FileSystem.pdb
